@@ -1,2 +1,8 @@
-alert("Javascript and jQuery works!");
-console.log('you can erase this if alert works');
+var waypoint = new Waypoint({
+    element: document.getElementById('block'),
+    handler: function (direction) {
+        this.element.classList.remove('original');
+        this.element.classList.add('change');
+    },
+    offset: '50%'
+})
