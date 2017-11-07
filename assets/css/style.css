@@ -16,3 +16,7 @@ body {
 .original {
 	background-image: url("../images/nystreetsA.jpg");
 }
+
+.change {
+	background-image: url("../images/nystreetsB.jpg");
+}
